@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0 ;
+  margin: 0;
+}
+
+.center{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  padding: 40px 0 ;
+  background-color: burlywood;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(./img/background3.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@keyframes fa-blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0; }
+}
+
+.fa-blink {
+-webkit-animation: fa-blink .75s linear infinite;
+-moz-animation: fa-blink .75s linear infinite;
+-ms-animation: fa-blink .75s linear infinite;
+-o-animation: fa-blink .75s linear infinite;
+animation: fa-blink .75s linear infinite;
+}
+
+.menu h1{
+  color: white;
+  font-size: 30px;
+}
+
+.menu a{
+  color: whitesmoke;
+  text-decoration: none;
+  border: 1px solid whitesmoke;
+  padding: 3px 8px;
+}
+
+.form {
+  background-color: #23232e;
+  opacity: 75%;
+  display: flex;
+  width: 100%;
+  max-width: 600px; 
+  margin: 100px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form h3{
+  color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.items-form{
+  margin: 0 auto;
+  max-width: 540px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.items-form input[type=text]{
+  background-color: #23232e;
+  color: white;
+  opacity: 75%;
+  border: 1px solid whitesmoke ;
+  width: 47%;
+  height: 38px;
+  margin: 8px 8px;
+}
+.items-form input[type=submit]{
+  width: 97.1%;
+  height: 40px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: #23232e;
+  border: 1px solid whitesmoke;
+  font-size: 15px;
+}
+.items-form textarea{
+  resize: none;
+  background-color: #23232e;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  margin: 10px;
+  width: 550px;
+  height: 100px;
+}
+
+#typeProject{
+  background-color: #23232e;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  margin: 10px;
+  height: 38px;
+  width: 250px;
+}
+
+.cadastro{
+  margin-top: 20px;
+  margin: 15px;
+}
+.cadastro a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 768px){
+  .items-form input[type-text]{
+    width: 100%;
+  }
+.items-form input[type=submit]{
+  width: 50%;
+}
+.items-form textarea{
+ width: 240px;
+}
+#typeProject{
+  width: 220px;
+}
+}
