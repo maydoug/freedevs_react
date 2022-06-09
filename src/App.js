@@ -29,7 +29,11 @@ function App() {
                        <option value="API">API</option>
                        <option value="API">Game</option>
                      </select>
-                     <input type="text" placeholder="TELEFONE"/>
+                     <select id="pais">
+                       <option value="brasil">Brasil</option>
+                       <option value="canada">Canada</option>
+                       <option value="USA">USA</option>
+                     </select>
                      <textarea id="texto" placeholder="O QUE VAMOS CRIAR?" name="projeto"/>
                      <input type="submit" />
                    </div>

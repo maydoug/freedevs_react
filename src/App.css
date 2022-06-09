@@ -119,6 +119,15 @@ animation: fa-blink .75s linear infinite;
   width: 250px;
 }
 
+#pais{
+  background-color: #23232e;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  margin: 10px;
+  height: 38px;
+  width: 250px;
+}
+
 .cadastro{
   margin-top: 20px;
   margin: 15px;
@@ -151,6 +160,9 @@ animation: fa-blink .75s linear infinite;
  width: 100%;
 }
 #typeProject{
+  width: 100%;
+}
+#pais{
   width: 100%;
 }
 .form h3{
