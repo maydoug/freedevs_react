@@ -39,8 +39,13 @@ function App() {
           </div>
           </div>
 
-
+          
+        
         </div>
+      
+        <div className="footer"><p>Make with ♡ MR '</p>
+        </div>
+
       </div>
     </div>
   );

@@ -129,6 +129,17 @@ animation: fa-blink .75s linear infinite;
   font-size: 13px;
 }
 
+.footer {
+  display: flex;
+  margin-left: 20px;
+  justify-content: right;
+}
+
+.footer p{
+  color: white;
+  font-size: 10px;
+}
+
 @media screen and (max-width: 768px){
   .items-form input[type=text]{
     width: 100%;
