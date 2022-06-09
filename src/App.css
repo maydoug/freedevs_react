@@ -153,4 +153,7 @@ animation: fa-blink .75s linear infinite;
 #typeProject{
   width: 100%;
 }
+.form h3{
+  text-align: center;
+}
 }
