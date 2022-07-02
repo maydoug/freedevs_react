@@ -110,7 +110,7 @@ animation: fa-blink .75s linear infinite;
   height: 100px;
 }
 
-#typeProject{
+#app{
   background-color: #23232e;
   color: whitesmoke;
   border: 1px solid whitesmoke;
@@ -159,7 +159,7 @@ animation: fa-blink .75s linear infinite;
 .items-form textarea{
  width: 100%;
 }
-#typeProject{
+#app{
   width: 100%;
 }
 #pais{
