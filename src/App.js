@@ -15,9 +15,7 @@ function App() {
       body: JSON.stringify(body),
   })
   .then((response) => response.json())
-  .then((data) => alert('cadastro realizado com sucesso', data))
-  
-  console.log(body)
+  .then((data) => alert('Recebemos o seu projeto, entraremos em contato em breve. Obrigado!', data))
   }
 
    function envForm(e){
