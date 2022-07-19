@@ -15,7 +15,7 @@ function App() {
       body: JSON.stringify(body),
   })
   .then((response) => response.json())
-  .then((data) => alert('Recebemos o seu projeto, entraremos em contato em breve. Obrigado!', data))
+  .then((data) => (data))
   }
 
    function envForm(e){
@@ -36,6 +36,8 @@ function App() {
       //console.log(dadosForm)
       
       fetchPost(dadosForm);
+      alert('Recebemos o seu projeto, entraremos em contato em breve. Obrigado!');
+      window.location.reload();
 
 
     /* api.post('https://api-freedevs.herokuapp.com/person', { 
@@ -66,9 +68,9 @@ function App() {
             <h3>Encontre um desenvolvedor para seu projeto</h3>
                  <form onSubmit={envForm}>
                    <div className="items-form">
-                     <input type="text" id="name" name="name" placeholder="SEU NOME"/>
+                     <input type="text" id="name" name="name" placeholder="SEU NOME" required/>
                      <input type="text" id="sobrenome" name="nome" placeholder="SOBRENOME"/>
-                     <input type="text" id="email" name="email" placeholder="DIGITE SEU E-MAIL"/>
+                     <input type="text" id="email" name="email" placeholder="DIGITE SEU E-MAIL" required/>
                      <input type="text" id="phone" name="phone" placeholder="TELEFONE"/>
                      <select id="app" name="app">
                        <option value="webSite">Web Site</option>
