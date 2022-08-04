@@ -4,9 +4,8 @@ import './App.css';
 // import axios from 'axios' ;
 
 function App() { 
-   //useEffect(() => {})
 
-   async function fetchPost(body){
+  async function fetchPost(body){
     fetch('https://api-freedevs.herokuapp.com/person', { 
       method:'POST',
       headers: {
@@ -82,7 +81,6 @@ function App() {
                      <select id="pais" name="pais">
                        <option value="brasil">Brasil</option>
                        <option value="canada">Canada</option>
-                       <option value="USA">USA</option>
                      </select>
                      <textarea id="descricao" name="descricao" placeholder="O QUE VAMOS CRIAR?"/>
                      <input type="submit" />

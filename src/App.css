@@ -95,11 +95,19 @@ animation: fa-blink .75s linear infinite;
   width: 97.1%;
   height: 40px;
   cursor: pointer;
-  background-color: whitesmoke;
-  color: #23232e;
+  background: none ;
+  color: white;
   border: 1px solid whitesmoke;
   font-size: 15px;
 }
+.items-form input[type=submit]:hover{
+  transition: all 0.5s;
+  background: rgb(120,228,238);
+  background: linear-gradient(90deg, rgba(120,228,238,1) 0%, rgba(15,30,241,1) 41%, rgba(10,4,173,1) 72%, rgba(12,16,139,1) 100%);
+  color: white;
+  border: 1px solid whitesmoke;
+}
+
 .items-form textarea{
   resize: none;
   background-color: #23232e;
