@@ -56,6 +56,11 @@ animation: fa-blink .75s linear infinite;
   border: 1px solid whitesmoke;
   padding: 3px 8px;
 }
+.menu a:hover{
+  transition: all 0.5s;
+  background: white;
+  color: #23232e;
+}
 
 .form {
   background-color: #23232e;
@@ -102,10 +107,9 @@ animation: fa-blink .75s linear infinite;
 }
 .items-form input[type=submit]:hover{
   transition: all 0.5s;
-  background: rgb(120,228,238);
-  background: linear-gradient(90deg, rgba(120,228,238,1) 0%, rgba(15,30,241,1) 41%, rgba(10,4,173,1) 72%, rgba(12,16,139,1) 100%);
-  color: white;
-  border: 1px solid whitesmoke;
+  background: white ;
+  color: black;
+  border: 1px solid black;
 }
 
 .items-form textarea{
